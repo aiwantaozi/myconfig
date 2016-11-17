@@ -29,6 +29,11 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'fatih/vim-go'
 Plugin 'kien/ctrlp.vim'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'yuratomo/w3m.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -48,6 +53,8 @@ filetype plugin indent on    " required
 map <C-n> :NERDTreeToggle<CR>
 
 let g:NERDTreeFileExtensionHighlightFullName = 1
+
+let g:w3m#command = '/usr/local/bin/w3m'
 
 set nu
 colorscheme desert
