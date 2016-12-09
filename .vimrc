@@ -50,6 +50,8 @@ filetype plugin indent on    " required
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 
+" 解决粘贴之后缩进混乱
+set pastetoggle=<F2>
 map <C-n> :NERDTreeToggle<CR>
 
 let g:NERDTreeFileExtensionHighlightFullName = 1
